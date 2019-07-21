@@ -7,7 +7,12 @@
 - dirb general folders present
 - script for checking admin folders, the one in python
 - copy website to local folder
-- check js files, what url's are there
+- check js files, what url's are there:
+just:
+- grep -Eo 'href="[^\"]+"'  
+- grep -Eo '(http|https)://[^/"]+'
+
+
 - check the forms, is there any hidden value on them
 - osinter script to find out information online
 - put httprequests_list script running for all the folders in the domain
