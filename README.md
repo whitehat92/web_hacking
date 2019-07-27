@@ -1,6 +1,11 @@
 # web_hacking
 
-
+- first of all, try to automate words' spelling. Create bash profiles_
+--> ~/bash.rc; ~/.profile ... whatever
+--> alias <comandname> = "<commandsyntax"
+--> source ~/<edited_profile_name>
+  
+Now, steps to think of before approaching a real target:
 - recon script in sh for general view
 - nikto for knowing what's in the url
 - whatweb for what technologies are there
