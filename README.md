@@ -1,5 +1,10 @@
 # web_hacking
 
+network diagnoses first
+-- connection probls..
+resolve.conf messed up due to overwrite issues
+--> apt purge resolvconf && reboot
+
 - first of all, try to automate words' spelling. Create bash profiles_
 --> ~/bash.rc; ~/.profile ... whatever
 --> alias <comandname> = "<commandsyntax"
