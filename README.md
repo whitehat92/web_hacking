@@ -42,3 +42,10 @@ Vectors for gathering some sort of information_
 - Javascript Performance Fingerprinting
 - Keystroke Fingerprinting
 - Operating System Type Fingerprinting
+
+More specific procedures:_
+- add xss payload to see handling of double qutores or angle brackets
+- test html5 attributes such as onload, onerror, etc, in elements like an img tag
+- use and abuse csrf tokens and try to delete content both by GET and POST, see the answer from the server
+- how is an account identifier treated or processed by the server? In the URL, is it passwd with a POST call? Try to modify it and access others
+- does the site take a url parameter to load a resource? Try to change the value of that parameter.
