@@ -18,7 +18,7 @@ Now, steps to think of before approaching a real target:
 - check admin folders through custom script running through a file with default admin main folders
 - copy entire website to local folder, options with wget, different approaches
 - js files: hidden endpoints, comments, calls
-- gotta love js files.. embrace them with: grep -Er 'href="[^\"]+"'; grep -Er '(http|https)://[^/"]+'; grep -Er 'hidden'; grep -Er'[0-9][0-9][0-9].[0-9][0-9][0-9].[0-9][0-9][0-9]'
+- gotta love js files.. embrace them with: grep -Er 'href="[^\"]+"'; grep -Er '(http|https)://[^/"]+'; grep -Er 'hidden'; grep -Er '[0-9][0-9][0-9].[0-9][0-9][0-9].[0-9][0-9][0-9]'
 - check forms in the entire website, which properties do they have (hidden; kind of action or where are they supposed to bring
 submitted information to - :action /post <some_end_path>
 
