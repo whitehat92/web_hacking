@@ -49,3 +49,16 @@ More specific procedures:_
 - use and abuse csrf tokens and try to delete content both by GET and POST, see the answer from the server
 - how is an account identifier treated or processed by the server? In the URL, is it passwd with a POST call? Try to modify it and access others
 - does the site take a url parameter to load a resource? Try to change the value of that parameter.
+
+WAF's_
+
+- Make a normal GET request from a browser, intercept and record response headers (specifically cookies).
+- Make a request from command line (eg. cURL), and test response content and headers (no user-agent included).
+- Make GET requests to random open ports and grab banners which might expose the WAFs identity.
+- If there is a login page somewhere, try some common (easily detectable) payloads like " or 1 = 1 --.
+- If there is some input field somewhere, try with noisy payloads like <script>alert()</script>.
+- Attach a dummy ../../../etc/passwd to a random parameter at end of URL.
+- Append some catchy keywords like ' OR SLEEP(5) OR ' at end of URLs to any random parameter.
+- Make GET requests with outdated protocols like HTTP/0.9 (HTTP/0.9 does not support POST type queries).
+- Many a times, the WAF varies the Server header upon different types of interactions.
+- Drop Action Technique - Send a raw crafted FIN/RST packet to server and identify response.
