@@ -13,18 +13,20 @@ resolve.conf messed up due to overwrite issues
 Now, steps to think of before approaching a real target:
 - recon script in sh for general view
 - nikto for knowing what's in the url
-- whatweb for what technologies are there
-- dirb general folders present
-- script for checking admin folders, the one in python
-- copy website to local folder
-- check js files, what url's are there:
-just:
-- grep -Eo 'href="[^\"]+"'  
-- grep -Eo '(http|https)://[^/"]+'
-- check the forms, is there any hidden value on them
-- osinter script to find out information online
-- put httprequests_list script running for all the folders in the domain
-- sqlmap if a parameter retrieves information with "="
+- whatweb to find out tech and stuff
+- dirb general folders present, dirsearch, gobuster, whatever
+- check admin folders through custom script running through a file with default admin main folders
+- copy entire website to local folder, options with wget, different approaches
+- js files: hidden endpoints, comments, calls
+- gotta love js files.. embrace them with: grep -E 'href="[^\"]+"'; grep -E '(http|https)://[^/"]+'; grep -E 'hidden'
+- check forms in the entire website, which properties do they have (hidden; kind of action or where are they supposed to bring
+submitted information to - :action /post <some_end_path>
+
+- osinter script: social media, digital dumpsters, digital cemetery
+- httprequests_list scripto on all the folders in the domain
+
+--> "=" in some parameteter? Head it over right into the sqlmap inside lazyweb_
+
 
 Vectors for gathering some sort of information_
 - Plugins
