@@ -64,3 +64,6 @@ and stuff like that via GET and data is on the actual URL. Attach also ' OR SLEE
 - GET requests with outdated protocols - HTTP/0.9 (for example) - or others older.
 - Hping the application using FIN and RST and analyse response.
 - Drop Action Technique - Send a raw crafted FIN/RST packet to server and identify response.
+
+
+script(prompt())/>
