@@ -52,13 +52,13 @@ More specific procedures:_
 
 WAF's_
 
-- Make a normal GET request from a browser, intercept and record response headers (specifically cookies).
-- Make a request from command line (eg. cURL), and test response content and headers (no user-agent included).
-- Make GET requests to random open ports and grab banners which might expose the WAFs identity.
-- If there is a login page somewhere, try some common (easily detectable) payloads like " or 1 = 1 --.
-- If there is some input field somewhere, try with noisy payloads like <script>alert()</script>.
-- Attach a dummy ../../../etc/passwd to a random parameter at end of URL.
-- Append some catchy keywords like ' OR SLEEP(5) OR ' at end of URLs to any random parameter.
-- Make GET requests with outdated protocols like HTTP/0.9 (HTTP/0.9 does not support POST type queries).
-- Many a times, the WAF varies the Server header upon different types of interactions.
+- Get to know cookies through GET requests (cookies are the new black).
+- Make requests without user-agent.
+- Requests to other open ports and grab the banners.
+- Login page? Try ungenious and dummy payload like " or 1 = 1 --.
+- Input fields like search bars, submissions, whatever, make some more noise <script>alert()</script>, invest more on prompt() or confirm().
+- Put ../../../etc/passwd in a random parameter at the end of url or something. More common if the site is passing variable information
+and stuff like that via GET and data is on the actual URL. Attach also ' OR SLEEP(5) OR '.
+- GET requests with outdated protocols - HTTP/0.9 (for example) - or others older.
+- Hping the application using FIN and RST and analyse response.
 - Drop Action Technique - Send a raw crafted FIN/RST packet to server and identify response.
