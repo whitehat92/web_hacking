@@ -27,6 +27,25 @@ submitted information to - :action /post <some_end_path>
 
 --> "=" in some parameteter? Head it over right into the sqlmap inside lazyweb_
 
+Search engines:
+- Ask
+- Base
+- Bing
+- DuckDuckGo
+- Exalead
+- Faroo
+- Fastbot
+- Google
+- Mojeek
+- Moose
+- Search
+- Tiger
+- Wikipedia
+- Yahoo
+- Yandex
+
+
+
 Attacks:
 - XSS: reflected, stored and DOM-based
 - SQLi, including blind
