@@ -27,6 +27,21 @@ submitted information to - :action /post <some_end_path>
 
 --> "=" in some parameteter? Head it over right into the sqlmap inside lazyweb_
 
+Attacks:
+- XSS: reflected, stored and DOM-based
+- SQLi, including blind
+- CSRF
+- Broken Access & Weak Management Sessions
+- CRLF
+- IDOR's
+- HTTP parameter pollution
+- Security Misconfiguration --> mostly leading to information disclosure situations
+- OS & command execution
+- Path traversal
+- domain || subdomain takeover through dns dig records
+- sensitive data online exposed: digital dumpster, osinter, digital cemetery
+
+
 
 Vectors for gathering some sort of information_
 - Plugins
