@@ -1,5 +1,5 @@
 # web_hacking
-
+<script>prompt("learn how to hack")</script>
 network diagnoses first
 -- connection probls..
 resolve.conf messed up due to overwrite issues
