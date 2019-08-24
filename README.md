@@ -89,16 +89,16 @@ Vectors for gathering some sort of information_
 - Operating System Type Fingerprinting
 
 <b>Web apps general vulnerabilities</b>:
-web apps vulns:
-misconfigurations
-default installations
-buffer overflows
-unpatched servers
-design flaws
-operation system flaws
-application flaws
-open services
-default passwords
+- web apps vulns:
+- misconfigurations
+- default installations
+- buffer overflows
+- unpatched servers
+- design flaws
+- operation system flaws
+- application flaws
+- open services
+- default passwords
 
 WAF's_
 
