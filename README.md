@@ -99,6 +99,19 @@ Vectors for gathering some sort of information_
 - open services
 - default passwords
 
+<i>More technical stuff</i>
+- Injection
+- Broken authentication
+- Sensitive Data Exposure
+- XML enternal Entity
+- Broken Access Control
+- Security Misconfiguration
+- XSS
+- Insecure Deserialization
+- Components with known vulns
+- Insuficient Logging and monitoring
+
+
 WAF's_
 
 - Get to know cookies through GET requests (cookies are the new black).
