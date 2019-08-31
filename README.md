@@ -12,6 +12,11 @@ resolve.conf messed up due to overwrite issues
 --> alias <comandname> = "<commandsyntax"
 --> source ~/<edited_profile_name>
   
+  <b> Some small bash scripting notes as well</b>
+  - if a word is on the directory or something: 
+  -- if [ -d "word"] then echo "word is here"; 
+  -- (condition not true [! -d "word"] then echo "word not"
+  
 Now, steps to think of before approaching a real target:
 - recon script in sh for general view
 - nikto for knowing what's in the url
