@@ -1,0 +1,43 @@
+<b> URL Encoding </b>
+
+- %3d — =
+- %25 — %
+- %20 — Space
+- %0a — New line
+- %00 — Null byte
+
+General speaking: space % ? & = ; + #
+
+
+<b> Unicode </b>
+- %u2215 — /
+- %u00e9 — é
+- %c2%a9 — ©
+- %e2%89%a0 — 􀁺
+
+<b> HTML </b>
+- &quot; — "
+- &apos; — '
+- &amp; — &
+- &lt; — <
+- &gt; — >
+
+<i>
+Using the ASCII code in decimal form:
+</i>
+- &#34; — "
+- &#39; — '
+
+Using ASCII code in hexadecimal form:
+- &#x22; — "
+- &#x27; — '
+
+<b> Base64 </b>
+input data in blocks of three bytes. Each of these
+blocks is divided into four chunks of six bits each. Six bits of data allows for 64
+different possible permutations, so each chunk can be represented using a set
+of 64 characters.
+
+<b> hex encoding </b>
+using ASCII characters to represent the hexadecimal block
+daf --> 646166
