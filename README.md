@@ -131,169 +131,171 @@ and stuff like that via GET and data is on the actual URL. Attach also ' OR SLEE
 - Drop Action Technique - Send a raw crafted FIN/RST packet to server and identify response.
 
 <b> OWASP check list </b>
-Map the Application’s Content
-Explore Visible Content
-Consult Public Resources
-Discover Hidden Content
-Discover Default Content
-Enumerate Identifier-Specified Functions
-Test for Debug Parameters
-Analyze the Application
-Identify Functionality
-Identify Data Entry Points
-Identify the Technologies Used
-Map the Attack Surface
-Test Client-side Controls
-Test Transmission of Data via the Client
-Test Client-side Control Over User Input
-Test Thick-client Components
-Test the Authentication Mechanism
-Understand the Mechanism
-Test Password Quality
-Test for Username Enumeration
-Test Resilience to Password Guessing
-Test Any Account Recovery Function
-Test Any Remember Me Function
-Test Any Impersonation Function
-Test Username Uniqueness
-Test Predictability of Auto-Generated Credentials
-Check for Unsafe Transmission of Credentials
-Test for Logic Flaws
-Exploit Any Vulnerabilities to Gain Unauthorized Access
-Test the Session Management Mechanism
-Understand the Mechanism
-Test Tokens for Meaning
-Test Tokens for Predictability
-Check for Insecure Transmission of Tokens
-Check for Disclosure of Tokens in Logs
-Check Mapping of Tokens to Sessions
-Test Session Termination
-Check for Session Fixation
-Check for XSRF
-Check Cookie Scope
-Test Access Controls
-Understand the Access Control Requirements
-Testing with Multiple Accounts
-Testing with Limited Access
-Test for Insecure Access Control Methods
-Test for Input-Based Vulnerabilities
-Fuzz All Request Parameters
-Test for SQL Injection
-Test for XSS and Other Response Injection
-Test for OS Command Injection
-Test for Path Traversal
-Test for Script Injection
-Test for File Inclusion
-Test for Function-Specific Input Vulnerabilities
-Test for SMTP Injection
-Test for Native Software Vulnerabilities
-Test for SOAP Injection
-Test for LDAP Injection
-Test for XPath Injection
-Test for Script Injection
-Test for File Inclusion
-Test for Logic Flaws
-Identify the Key Attack Surface
-Test Multistage Processes
-Test Handling of Incomplete Input
-Test Trust Boundaries
-Test Transaction Logic
-Test for Shared Hosting Vulnerabilities
-Test Segregation in Shared Infrastructures
-Test Segregation between ASP-Hosted Applications
-Test for Web Server Vulnerabilities
-Test for Default Credentials
-Test for Default Content
-Test for Dangerous HTTP Methods
-Test for Proxy Functionality
-Test for Virtual Hosting Misconfiguration
-Test for Web Server Software Bugs
-Miscellaneous Checks
-Check for DOM-based Attacks
-Check for Frame Injection
-Check for Local Privacy Vulnerabilities
-Follow Up Any Information Leakage
-Check for Weak SSL Ciphers
+ <i> Map the Application’s Content</i>
+- Explore Visible Content
+- Consult Public Resources
+- Discover Hidden Content
+- Discover Default Content
+- Enumerate Identifier-Specified Functions
+- Test for Debug Parameters
+<i> Analyze the Application
+- Identify Functionality
+- Identify Data Entry Points
+- Identify the Technologies Used
+- Map the Attack Surface
+<i> Test Client-side Controls
+- Test Transmission of Data via the Client
+- Test Client-side Control Over User Input
+- Test Thick-client Components
+<i>Test the Authentication Mechanism
+- Understand the Mechanism
+- Test Password Quality
+- Test for Username Enumeration
+- Test Resilience to Password Guessing
+- Test Any Account Recovery Function
+- Test Any Remember Me Function
+- Test Any Impersonation Function
+- Test Username Uniqueness
+- Test Predictability of Auto-Generated Credentials
+- Check for Unsafe Transmission of Credentials
+- Test for Logic Flaws
+- Exploit Any Vulnerabilities to Gain Unauthorized Access
+<i> Test the Session Management Mechanism
+- Understand the Mechanism
+- Test Tokens for Meaning
+- Test Tokens for Predictability
+- Check for Insecure Transmission of Tokens
+- Check for Disclosure of Tokens in Logs
+- Check Mapping of Tokens to Sessions
+- Test Session Termination
+- Check for Session Fixation
+- Check for XSRF
+- Check Cookie Scope
+<i> Test Access Controls
+- Understand the Access Control Requirements
+- Testing with Multiple Accounts
+- Testing with Limited Access
+- Test for Insecure Access Control Methods
+<i> Test for Input-Based Vulnerabilities
+- Fuzz All Request Parameters
+- Test for SQL Injection
+- Test for XSS and Other Response Injection
+- Test for OS Command Injection
+- Test for Path Traversal
+- Test for Script Injection
+- Test for File Inclusion
+<i> Test for Function-Specific Input Vulnerabilities
+- Test for SMTP Injection
+- Test for Native Software Vulnerabilities
+- Test for SOAP Injection
+- Test for LDAP Injection
+- Test for XPath Injection
+- Test for Script Injection
+- Test for File Inclusion
+<i> Test for Logic Flaws
+- Identify the Key Attack Surface
+- Test Multistage Processes
+- Test Handling of Incomplete Input
+- Test Trust Boundaries
+- Test Transaction Logic
+<i> Test for Shared Hosting Vulnerabilities
+- Test Segregation in Shared Infrastructures
+- Test Segregation between ASP-Hosted Applications
+<i> Test for Web Server Vulnerabilities
+- Test for Default Credentials
+- Test for Default Content
+- Test for Dangerous HTTP Methods
+- Test for Proxy Functionality
+- Test for Virtual Hosting Misconfiguration
+- Test for Web Server Software Bugs
+<i> Miscellaneous Checks
+- Check for DOM-based Attacks
+- Check for Frame Injection
+- Check for Local Privacy Vulnerabilities
+- Follow Up Any Information Leakage
+- Check for Weak SSL Ciphers
+
 the owasp testing methodology checklist (https://www.owasp.org/index.php/testing_checklist)
-Information Gathering
-Spiders, Robots, and Crawlers
-Search Engine Discovery/Reconnaissance
-Identify application entry points
-Testing for Web Application Fingerprint
-Application Discovery
-Analysis of Error Codes
-Configuration Management Testing
-SSL/TLS Testing (SSL Version, Algorithms, Key length, Digital Cert. Validity)
-DB Listener Testing
-Infrastructure Configuration Management Testing
-Application Configuration Management Testing
-Testing for File Extensions Handling
-Old, backup and unreferenced files
-Infrastructure and Application Admin Interfaces
-Testing for HTTP Methods and XST
-Authentication Testing
-Credentials transport over an encrypted channel
-Testing for user enumeration
-Testing for Guessable (Dictionary) User Account
-Brute Force Testing
-Testing for bypassing authentication schema
-Testing for vulnerable remember password and pwd reset
-Testing for Logout and Browser Cache Management
-Testing for CAPTCHA
-Testing Multiple Factors Authentication
-Testing for Race Conditions
-Session Management
-Testing for Session Management Schema
-Testing for Cookies attributes
-Testing for Session Fixation
-Testing for Exposed Session Variables
-Testing for CSRF
-Authorization Testing
-Testing for Business Logic
-Business Logic Testing
-Testing for Business Logic
-Data Validation Testing
-Testing for Reflected Cross Site Scripting
-Testing for Stored Cross Site Scripting
-Testing for DOM based Cross Site Scripting
-Testing for Cross Site Flashing
-SQL Injection
-LDAP Injection
-ORM Injection
-XML Injection
-SSI Injection
-XPath Injection
-IMAP/SMTP Injection
-Code Injection
-OS Commanding
-Buffer overflow
-Incubated vulnerability
-Testing for HTTP Splitting/Smuggling
-Denial of Service Testing
-Testing for SQL Wildcard Attacks
-Locking Customer Accounts
-Testing for DoS Buffer Overflows
-User Specified Object Allocation
-User Input as a Loop Counter
-Writing User Provided Data to Disk
-Failure to Release Resources
-Storing too Much Data in Session
-Web Services Testing
-WS Information Gathering
-Testing WSDL
-XML Structural Testing
-XML content-level Testing
-HTTP GET parameters/REST Testing
-Naughty SOAP attachments
-Replay Testing
-Web Services Testing
-WS Information Gathering
-Testing WSDL
-XML Structural Testing
-XML content-level Testing
-HTTP GET parameters/REST Testing
-Naughty SOAP attachments
-Replay Testing
-Web Services Testing
-AJAX Vulnerabilities
-AJAX Testing
+
+<i> Information Gathering
+- Spiders, Robots, and Crawlers
+- Search Engine Discovery/Reconnaissance
+- Identify application entry points
+- Testing for Web Application Fingerprint
+- Application Discovery
+- Analysis of Error Codes
+<i> Configuration Management Testing
+- SSL/TLS Testing (SSL Version, Algorithms, Key length, Digital Cert. Validity)
+- DB Listener Testing
+- Infrastructure Configuration Management Testing
+- Application Configuration Management Testing
+- Testing for File Extensions Handling
+- Old, backup and unreferenced files
+- Infrastructure and Application Admin Interfaces
+- Testing for HTTP Methods and XST
+<i> Authentication Testing
+- Credentials transport over an encrypted channel
+- Testing for user enumeration
+- Testing for Guessable (Dictionary) User Account
+- Brute Force Testing
+- Testing for bypassing authentication schema
+- Testing for vulnerable remember password and pwd reset
+- Testing for Logout and Browser Cache Management
+- Testing for CAPTCHA
+- Testing Multiple Factors Authentication
+- Testing for Race Conditions
+<i> Session Management
+- Testing for Session Management Schema
+- Testing for Cookies attributes
+- Testing for Session Fixation
+- Testing for Exposed Session Variables
+- Testing for CSRF
+<i> Authorization Testing
+- Testing for Business Logic
+<i> Business Logic Testing
+- Testing for Business Logic
+<i> Data Validation Testing
+- Testing for Reflected Cross Site Scripting
+- Testing for Stored Cross Site Scripting
+- Testing for DOM based Cross Site Scripting
+- Testing for Cross Site Flashing
+- SQL Injection
+- LDAP Injection
+- ORM Injection
+- XML Injection
+- SSI Injection
+- XPath Injection
+- IMAP/SMTP Injection
+- Code Injection
+- OS Commanding
+- Buffer overflow
+- Incubated vulnerability
+- Testing for HTTP Splitting/Smuggling
+<i> Denial of Service Testing
+- Testing for SQL Wildcard Attacks
+- Locking Customer Accounts
+- Testing for DoS Buffer Overflows
+- User Specified Object Allocation
+- User Input as a Loop Counter
+- Writing User Provided Data to Disk
+- Failure to Release Resources
+- Storing too Much Data in Session
+- Web Services Testing
+- WS Information Gathering
+- Testing WSDL
+- XML Structural Testing
+- XML content-level Testing
+- HTTP GET parameters/REST Testing
+- Naughty SOAP attachments
+- Replay Testing
+<i> Web Services Testing
+- WS Information Gathering
+- Testing WSDL
+- XML Structural Testing
+- XML content-level Testing
+- HTTP GET parameters/REST Testing
+- Naughty SOAP attachments
+- Replay Testing
+- Web Services Testing
+- AJAX Vulnerabilities
+- AJAX Testing
