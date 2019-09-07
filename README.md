@@ -131,23 +131,23 @@ and stuff like that via GET and data is on the actual URL. Attach also ' OR SLEE
 - Drop Action Technique - Send a raw crafted FIN/RST packet to server and identify response.
 
 <b> OWASP check list </b>
- <i> Map the Application’s Content</i>
+  <i> Map the Application’s Content</i>
 - Explore Visible Content
 - Consult Public Resources
 - Discover Hidden Content
 - Discover Default Content
 - Enumerate Identifier-Specified Functions
 - Test for Debug Parameters
-<i> Analyze the Application
+<i> Analyze the Application</i>
 - Identify Functionality
 - Identify Data Entry Points
 - Identify the Technologies Used
 - Map the Attack Surface
-<i> Test Client-side Controls
+<i> Test Client-side Controls</i>
 - Test Transmission of Data via the Client
 - Test Client-side Control Over User Input
 - Test Thick-client Components
-<i>Test the Authentication Mechanism
+<i>Test the Authentication Mechanism</i>
 - Understand the Mechanism
 - Test Password Quality
 - Test for Username Enumeration
@@ -160,7 +160,7 @@ and stuff like that via GET and data is on the actual URL. Attach also ' OR SLEE
 - Check for Unsafe Transmission of Credentials
 - Test for Logic Flaws
 - Exploit Any Vulnerabilities to Gain Unauthorized Access
-<i> Test the Session Management Mechanism
+<i> Test the Session Management Mechanism</i>
 - Understand the Mechanism
 - Test Tokens for Meaning
 - Test Tokens for Predictability
@@ -171,12 +171,12 @@ and stuff like that via GET and data is on the actual URL. Attach also ' OR SLEE
 - Check for Session Fixation
 - Check for XSRF
 - Check Cookie Scope
-<i> Test Access Controls
+<i> Test Access Controls</i>
 - Understand the Access Control Requirements
 - Testing with Multiple Accounts
 - Testing with Limited Access
 - Test for Insecure Access Control Methods
-<i> Test for Input-Based Vulnerabilities
+<i> Test for Input-Based Vulnerabilities</i>
 - Fuzz All Request Parameters
 - Test for SQL Injection
 - Test for XSS and Other Response Injection
@@ -184,7 +184,7 @@ and stuff like that via GET and data is on the actual URL. Attach also ' OR SLEE
 - Test for Path Traversal
 - Test for Script Injection
 - Test for File Inclusion
-<i> Test for Function-Specific Input Vulnerabilities
+<i> Test for Function-Specific Input Vulnerabilities</i>
 - Test for SMTP Injection
 - Test for Native Software Vulnerabilities
 - Test for SOAP Injection
@@ -192,23 +192,23 @@ and stuff like that via GET and data is on the actual URL. Attach also ' OR SLEE
 - Test for XPath Injection
 - Test for Script Injection
 - Test for File Inclusion
-<i> Test for Logic Flaws
+<i> Test for Logic Flaws</i>
 - Identify the Key Attack Surface
 - Test Multistage Processes
 - Test Handling of Incomplete Input
 - Test Trust Boundaries
 - Test Transaction Logic
-<i> Test for Shared Hosting Vulnerabilities
+<i> Test for Shared Hosting Vulnerabilities</i>
 - Test Segregation in Shared Infrastructures
 - Test Segregation between ASP-Hosted Applications
-<i> Test for Web Server Vulnerabilities
+<i> Test for Web Server Vulnerabilities</i>
 - Test for Default Credentials
 - Test for Default Content
 - Test for Dangerous HTTP Methods
 - Test for Proxy Functionality
 - Test for Virtual Hosting Misconfiguration
 - Test for Web Server Software Bugs
-<i> Miscellaneous Checks
+<i> Miscellaneous Checks</i>
 - Check for DOM-based Attacks
 - Check for Frame Injection
 - Check for Local Privacy Vulnerabilities
@@ -217,14 +217,14 @@ and stuff like that via GET and data is on the actual URL. Attach also ' OR SLEE
 
 the owasp testing methodology checklist (https://www.owasp.org/index.php/testing_checklist)
 
-<i> Information Gathering
+<i> Information Gathering</i>
 - Spiders, Robots, and Crawlers
 - Search Engine Discovery/Reconnaissance
 - Identify application entry points
 - Testing for Web Application Fingerprint
 - Application Discovery
 - Analysis of Error Codes
-<i> Configuration Management Testing
+<i> Configuration Management Testing</i>
 - SSL/TLS Testing (SSL Version, Algorithms, Key length, Digital Cert. Validity)
 - DB Listener Testing
 - Infrastructure Configuration Management Testing
@@ -233,7 +233,7 @@ the owasp testing methodology checklist (https://www.owasp.org/index.php/testing
 - Old, backup and unreferenced files
 - Infrastructure and Application Admin Interfaces
 - Testing for HTTP Methods and XST
-<i> Authentication Testing
+<i> Authentication Testing</i>
 - Credentials transport over an encrypted channel
 - Testing for user enumeration
 - Testing for Guessable (Dictionary) User Account
@@ -244,17 +244,17 @@ the owasp testing methodology checklist (https://www.owasp.org/index.php/testing
 - Testing for CAPTCHA
 - Testing Multiple Factors Authentication
 - Testing for Race Conditions
-<i> Session Management
+<i> Session Management</i>
 - Testing for Session Management Schema
 - Testing for Cookies attributes
 - Testing for Session Fixation
 - Testing for Exposed Session Variables
 - Testing for CSRF
-<i> Authorization Testing
+<i> Authorization Testing</i>
 - Testing for Business Logic
-<i> Business Logic Testing
+<i> Business Logic Testing</i>
 - Testing for Business Logic
-<i> Data Validation Testing
+<i> Data Validation Testing</i>
 - Testing for Reflected Cross Site Scripting
 - Testing for Stored Cross Site Scripting
 - Testing for DOM based Cross Site Scripting
@@ -271,7 +271,7 @@ the owasp testing methodology checklist (https://www.owasp.org/index.php/testing
 - Buffer overflow
 - Incubated vulnerability
 - Testing for HTTP Splitting/Smuggling
-<i> Denial of Service Testing
+<i> Denial of Service Testing</i>
 - Testing for SQL Wildcard Attacks
 - Locking Customer Accounts
 - Testing for DoS Buffer Overflows
@@ -288,7 +288,7 @@ the owasp testing methodology checklist (https://www.owasp.org/index.php/testing
 - HTTP GET parameters/REST Testing
 - Naughty SOAP attachments
 - Replay Testing
-<i> Web Services Testing
+<i> Web Services Testing</i>
 - WS Information Gathering
 - Testing WSDL
 - XML Structural Testing
