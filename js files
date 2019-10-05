@@ -1,0 +1,5 @@
+-- wget recursive. If not successful, getjs
+-- Burp dirs, crawl website
+-- Collect information clicking around website.
+-- Copy links collected into file
+-- Grep js files
